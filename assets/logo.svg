@@ -1,0 +1,46 @@
+<svg width="260" height="80" viewBox="0 0 260 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8ec5fc"/>
+      <stop offset="100%" stop-color="#5b86e5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon Background -->
+  <rect x="0" y="0" width="70" height="70" rx="16" fill="url(#blueGrad)"/>
+
+  <!-- Spoon -->
+  <path d="M42 16
+           c6 0 10 6 6 12
+           l-8 14
+           c-2 3 -6 3 -8 0
+           l-8 -14
+           c-4 -6 0 -12 6 -12
+           c3 0 4 2 4 2
+           c0 0 1 -2 4 -2z"
+        fill="#fff"
+        transform="rotate(45 35 35)"/>
+
+  <!-- Fork -->
+  <path d="M24 18
+           v10
+           m4 -10 v10
+           m4 -10 v10
+           m-4 10 v16
+           c0 4 -6 4 -6 0
+           v-16"
+        stroke="#fff"
+        stroke-width="3"
+        stroke-linecap="round"
+        fill="none"
+        transform="rotate(-45 35 35)"/>
+
+  <!-- Text -->
+  <text x="90" y="48"
+        fill="url(#blueGrad)"
+        font-size="36"
+        font-family="cursive"
+        font-weight="600">
+    forkify
+  </text>
+</svg>

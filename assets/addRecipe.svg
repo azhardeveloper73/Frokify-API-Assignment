@@ -1,0 +1,23 @@
+<svg width="26" height="30" viewBox="0 0 24 24" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="addRecipeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8ec5fc"/>
+      <stop offset="100%" stop-color="#5b86e5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Box -->
+  <rect x="3" y="3" width="20" height="20" rx="2"
+        stroke="url(#addRecipeGrad)"
+        stroke-width="2"/>
+
+  <!-- Pencil -->
+  <path d="M14.5 6.5L17.5 9.5M6 16.5L9.5 15.8L18.3 7
+           C18.7 6.6 18.7 6 18.3 5.6L17.4 4.7
+           C17 4.3 16.4 4.3 16 4.7L7.2 13.5L6 16.5Z"
+        stroke="url(#addRecipeGrad)"
+        stroke-width="2"
+        stroke-linejoin="round"
+        stroke-linecap="round"/>
+</svg>
